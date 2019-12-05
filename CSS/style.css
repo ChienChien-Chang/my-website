@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display|Work+Sans&display=swap" rel="stylesheet");
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+
+body{
+	font-family: 'Work Sans', sans-serif;
+	font-size:18px;
+	margin: 0px;
+}
+
+
+h1,h2,h3{
+	font-family: 'Playfair Display', serif;
+	font-weight:bold;
+
+}
+
+a{
+	text-decoration: none;
+}

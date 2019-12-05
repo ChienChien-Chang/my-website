@@ -1,0 +1,31 @@
+.container{
+	width: 700px;
+	margin: 0 auto;
+	background: rgba(255,255,255,0.6);
+	padding: 10px;
+	padding-left: 20px;
+	padding-bottom: 40px;
+	transition: 0.3s;
+}
+
+@media(max-width: 960px){
+	.container{
+		width: 700px;
+	}
+}
+@media(max-width: 720px){
+	.container{
+		width:500px;
+	}
+}
+
+@media(max-width: 540px){
+	.container{
+		width: 300px;
+	}
+}
+
+.container:hover{
+	background: rgba(255,255,255,0.9);
+
+}
